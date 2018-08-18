@@ -26,14 +26,14 @@ class ArticlesController < ApplicationController
   def create
     @article = Article.new(article_params)
     @article.save
-    redirect_to articles_path
+    redirect_to root_path
   end
 
   # PATCH/PUT /articles/1
 
   def update
     if @article.update(article_params)
-      redirect_to articles_path
+      redirect_to root_path
     else
       render :edit
     end
@@ -43,7 +43,7 @@ class ArticlesController < ApplicationController
 
   def destroy
     @article.destroy
-    redirect_to articles_path
+    redirect_to root_path
   end
 
   private
