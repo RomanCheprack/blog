@@ -69,3 +69,4 @@ gem 'simple_form'
 
 #Image Hosting
 gem 'dotenv-rails', groups: [:development, :test]
+gem 'cloudinary'
