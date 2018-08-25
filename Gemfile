@@ -66,7 +66,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 #front end
 gem 'bootstrap-sass'
 gem 'simple_form'
-gem 'bootstrap', '~> 4.0.0'
+gem 'bootstrap', '~> 4.1.3'
 
 #Image Hosting
 gem 'dotenv-rails', groups: [:development, :test]
