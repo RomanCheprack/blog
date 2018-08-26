@@ -64,11 +64,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #front end
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'simple_form'
-gem 'bootstrap', '~> 4.1.3'
 
 #Image Hosting
 gem 'dotenv-rails', groups: [:development, :test]
 gem 'cloudinary'
 gem 'carrierwave', '~> 1.2'
+
+gem 'devise'
