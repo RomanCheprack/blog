@@ -1,5 +1,4 @@
 <div class="container">
-  <div class="row">
     <% @articles.each do |article| %>
         <div class="col-xs-12 col-sm-4">
           <h5><%= link_to article.title, article %></h5>
@@ -8,13 +7,12 @@
           <%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %>
       </div>
     <% end %>
-  </div>
 </div>
 
 <div class="container text-center">
-  <div class="row">
+
     <%= link_to 'New Article', new_article_path, class:"btn btn-primary" %>
     </div>
-  </div>
+
 </div>
 
